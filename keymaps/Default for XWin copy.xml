@@ -2,8 +2,30 @@
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl a" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl d" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl a" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="OverrideMethods" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl x" />
