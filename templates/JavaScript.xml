@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="promise" value="new Promise((resolve, reject) =&gt; {&#10;    $END$&#10;})" description="Creating new promise" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
