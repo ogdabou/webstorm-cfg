@@ -6,40 +6,29 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl d" />
   </action>
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f9" />
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
-  </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl a" />
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
-  <action id="GotoDeclaration">
-    <mouse-shortcut keystroke="control button1" />
-  </action>
   <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
-  <action id="GotoTypeDeclaration">
-    <mouse-shortcut keystroke="shift control button1" />
-  </action>
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="right" />
   </action>
   <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
   <action id="OverrideMethods" />
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="left" />
   </action>
   <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
-  </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f10" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl x" />
