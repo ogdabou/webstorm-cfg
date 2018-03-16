@@ -2,9 +2,17 @@
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="ctrl a" />
   </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt quotedbl" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="alt ampersand" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt quote" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
@@ -24,8 +32,8 @@
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="IntroduceActionsGroup">
